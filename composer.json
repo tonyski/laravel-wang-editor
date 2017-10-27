@@ -1,0 +1,35 @@
+{
+    "name": "tonyski/laravel-wang-editor",
+    "description": "WangEditor for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tonyski",
+            "email": "tonyski@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/routing": "5.5.*",
+        "illuminate/support": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tonyski\\WangEditor\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tonyski\\WangEditor\\WangEditorServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
